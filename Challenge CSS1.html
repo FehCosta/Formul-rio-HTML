@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="" method="POST">
+        <div class="borda"></div>
+        <legend>Cadastro</legend>
+
+
+        <label id="Nome">Nome
+            </label>
+
+        <label>
+            <input type="text" name="Nome" required id="input-nome">
+            </label>
+
+
+
+        <label>E-mail
+            </label>
+
+        <label>
+            <input type="email" name="E-mail">
+            </label>
+
+
+
+        <label>Idade
+            </label>
+
+        <label>
+            <input type="number" name="Idade" min="12">
+            </label>
+
+
+
+        <label>Data de Nascimento
+            </label>
+
+        <label>
+                <input type="date" name="Data de Nascimento">
+            </label>
+
+
+        <label>Onde você possui conta:</label>
+
+        <label class="contas">
+                <input type="checkbox" name="Instagram">Instagram
+                </label>
+
+        <label class="contas">
+                <input type="checkbox" name="Facebook">Facebook
+                </label>
+
+        <label class="contas">
+                <input type="checkbox" name="Youtube">Youtube
+                <label>    
+
+
+                <label>Sexo:<label>
+                    
+                    <label class="sexo">
+                    <input type="radio" name="Sexo">Masculino
+                    </label>
+        <label class="sexo">
+                    <input type="radio" name="Sexo">Feminino
+                    </label>
+
+        </label>Cor dos Olhos
+        <input type="color" name="Cor dos olhos">
+        </label>
+
+
+        <label>Biografia
+            </label>
+
+        <label>
+            <textarea name="Biografia"></textarea>
+            </label>
+
+
+        <label id="Foto"><form action="" method="POST" enctype="multipart/form-data">Foto de Perfil<label>
+        
+                <label><input type="file" accept="image/*" multiple name="foto-de-perfil">
+            </form></label>
+
+
+        <label>Telefone
+            </label>
+
+        <label>
+            <input type="tel" name="Telefone">
+            </label>
+
+        <label>Link do Perfil do Facebook<label>
+            <label><input type="url" name="Link do Perfil do Facebook"></label>
+
+        <label>Senha
+            </label>
+
+        <label>
+            <input type="password" minlength="6" maxlenght="8" name="Senha">
+            </label>
+
+
+        <button class value="Limpar" onclick="" name="Limpar" type="reset">Limpar</button>
+        <button value="Enviar" onclick="" name="Enviar Dados" type="submit">Enviar Dados</button>
+
+    </form>
+
+</body>
+
+</html>

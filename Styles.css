@@ -1,0 +1,42 @@
+label {
+    display: block;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+input {
+    border-style: solid;
+    border-color: rgb(255, 0, 255);
+}
+
+.contas {
+    display: inline
+}
+
+.sexo {
+    display: inline
+}
+
+* {
+    color: #cbc0ad;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #361d2e;
+}
+
+button:hover {
+    color: fuchsia;
+    background-color: gold;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+    border-style: solid;
+    border-color: lime;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+}
